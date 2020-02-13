@@ -14,7 +14,7 @@ layout: default
                 <h1 class="display-3">{{ page.title }}</h1>
                 <p class="text-muted">
                     <span class="d-inline-block nav-link"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }}</span>
-                    <span class="d-inline-block nav-link"><i class="fa fa-clock"></i> 2min Read</span>
+                    <span class="d-inline-block nav-link"><i class="fa fa-clock"></i>{% include reading_time.html %}</span>
                     <span class="d-inline-block nav-link"><i class="fa fa-tag"></i> Fruit Apple Food</span>
                 </p>
                 <img class="w-100 img-fluid" src="{{site.baseurl}}/{{ page.img }}">
