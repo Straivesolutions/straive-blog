@@ -65,8 +65,8 @@
     <div class="container">
         <hr>
         <div class="row">
-            <div class="col pointer" onclick="goBack()">
-                <i class="fa fa-angle-left fa-2x"></i>
+            <div class="col" onclick="goBack()">
+                <i class="fa fa-angle-left fa-2x pointer"></i>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -82,10 +82,17 @@
                 </p>
                 <img class="w-100 img-fluid" src="/assets/img/open-source-valentine-github-education.png">
                 <p class="text-muted">
-                    <span class="d-inline-block nav-link"><i class="far fa-heart fa-2x"></i></span>
-                    <span class="d-inline-block nav-link">
+                    <span class="d-inline-block nav-link pointer" id="like-button">
+                        <i class="far fa-heart fa-2x"></i>
+                    </span>
+                    <span class="d-inline-block nav-link pointer">
                         <a href="https://www.facebook.com/sharer.php?u=http://localhost:4000//2020/02/06/apple.html&title=Apple" title="Share on Facebook" target="_blank">
                             <i class="fab fa-facebook fa-2x"></i>
+                        </a>
+                    </span>
+                    <span class="d-inline-block nav-link pointer">
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="text-twitter-blue" data-size="large" data-show-count="false">
+                            <i class="fab fa-twitter fa-2x"></i>
                         </a>
                     </span>
                 </p>
@@ -158,7 +165,6 @@ colonists.</p>
         json: '/search.json'
     })
 </script>
-<script src="/assets/js/basic-functions.js"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -168,4 +174,6 @@ colonists.</p>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+<script src="/assets/js/basic-functions.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </html>

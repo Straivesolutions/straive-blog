@@ -24,3 +24,9 @@ body {
 .font-size-paragraph{
     font-size: large;
 }
+#like-button:hover{
+    color: rgba(255, 0, 19, 0.75);
+}
+.text-twitter-blue{
+    color: #24a1f2;
+}
