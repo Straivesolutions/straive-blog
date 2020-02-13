@@ -1,0 +1,31 @@
+<section class="d-none d-md-block bg-light"
+         style="background: url('{{ site.baseurl }}/assets/img/Handwritten-text.png') right no-repeat; background-size: 30%;">
+    <div class="container py-2">
+        <p>
+            <a href="http://localhost/Straive/v3.0.0/index.html" class="h3 text-dark font-weight-bolder d-inline-block">Straive</a>
+            {% for link in site.data.navigation %}
+                <a href="{{ link.link }}" class="text-dark nav-link d-inline-block">{{ link.name }}</a>
+            {% endfor%}
+        </p>
+        <p class="text-muted">
+            Straivesolutions © 2020
+            <a href="http://localhost/Straive/v3.0.0/privacy.html" class="text-muted nav-link d-inline-block hover-black">Privacy Policy</a>
+        </p>
+    </div>
+</section>
+
+<section class="d-md-none bg-light">
+    <div class="container py-2">
+        <p>
+            <a href="http://localhost/Straive/v3.0.0/index.html" class="h3 text-dark font-weight-bolder d-inline-block">Straive</a>
+            {% for link in site.data.navigation %}
+            <a href="{{ link.link }}" class="text-dark nav-link d-inline-block">{{ link.name }}</a>
+            {% endfor%}
+        </p>
+        <img src="{{ site.baseurl }}/assets/img/Handwritten-text.png" alt="footer-img" class="img-fluid">
+        <p class="text-muted">
+            Straivesolutions © 2020
+            <a href="http://localhost/Straive/v3.0.0/privacy.html" class="text-muted nav-link d-inline-block hover-black">Privacy Policy</a>
+        </p>
+    </div>
+</section>

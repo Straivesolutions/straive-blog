@@ -1,0 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Abel', sans-serif;
+    overflow-x: hidden;
+}
+.section
+{
+    position: relative;
+
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.pointer{
+    cursor: pointer;
+}
+.hover-black:hover{
+    color: black !important;
+}
+.text-brown{
+    color: #442915 !important;
+}
+.font-size-paragraph{
+    font-size: large;
+}

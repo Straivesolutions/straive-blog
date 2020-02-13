@@ -1,0 +1,8 @@
+- name: Products
+  link: http://localhost/Straive/v3.0.0/index.html#products
+- name: Research
+  link: http://localhost/Straive/v3.0.0/index.html#research
+- name: Philanthropy
+  link: http://localhost/Straive/v3.0.0/index.html#philanthropy
+- name: Blog
+  link: /

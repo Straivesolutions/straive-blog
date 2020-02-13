@@ -1,0 +1,43 @@
+[
+  
+  {
+
+    "title"    : "A banana is an edible fruit – botanically a berry",
+    "url"      : "/2020/02/10/test.html",
+    "category" : "",
+    "tags"     : "",
+    "date"     : "2020-02-10 00:00:00 +0530"
+
+  } ,
+  
+  {
+
+    "title"    : "Kiwifruit",
+    "url"      : "/2020/02/06/kiwifruit.html",
+    "category" : "",
+    "tags"     : "",
+    "date"     : "2020-02-06 00:00:00 +0530"
+
+  } ,
+  
+  {
+
+    "title"    : "Apple",
+    "url"      : "/2020/02/06/apple.html",
+    "category" : "",
+    "tags"     : "",
+    "date"     : "2020-02-06 00:00:00 +0530"
+
+  } ,
+  
+  {
+
+    "title"    : "Gojira",
+    "url"      : "/2020/02/05/gojira.html",
+    "category" : "",
+    "tags"     : "",
+    "date"     : "2020-02-05 00:00:00 +0530"
+
+  } 
+  
+]
