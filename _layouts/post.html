@@ -19,7 +19,7 @@ layout: default
                 </p>
                 <img class="w-100 img-fluid" src="{{site.baseurl}}/{{ page.img }}">
                 <p class="text-muted">
-                    <span class="d-inline-block nav-link pointer" id="like-button">
+                    <span class="d-inline-block nav-link pointer" id="like-button" title="Love?">
                         <i class="far fa-heart fa-2x"></i>
                     </span>
                     <span class="d-inline-block nav-link pointer">
@@ -29,7 +29,12 @@ layout: default
                     </span>
                     <span class="d-inline-block nav-link pointer">
                         <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
-                            <i class="fab fa-twitter fa-2x"></i>
+                            <i class="fab fa-twitter fa-2x text-twitter-blue"></i>
+                        </a>
+                    </span>
+                    <span class="d-inline-block nav-link pointer">
+                        <a onclick="copyText()" title="Get a shareable link">
+                            <i class="fas fa-link fa-2x text-muted"></i>
                         </a>
                     </span>
                 </p>
