@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<div class="section">
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col" onclick="goBack()">
+                <i class="fa fa-angle-left fa-2x pointer"></i>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <img src="{{ site.baseurl }}/{{ page.author_img }}" alt="{{ page.title }}" class="rounded-circle">
+                <h2 class="font-weight-bold text-justify text-capitalize mt-2">
+                    {{ page.name }}
+                </h2>
+                <p class="font-size-paragraph">
+                    {{ content }}
+                </p>
+                <p>
+                    <span class="h5 font-weight-bolder">
+                        {% assign post_count = 0 %}
+                        {% for post in site.posts %}
+                            {% if page.name == post.author %}
+                                {% assign post_count = post_count | plus: 1 %}
+                            {% endif%}
+                        {% endfor %}
+                        {{ post_count }}
+                    </span>
+                    Posts
+                </p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                {% for post in site.posts %}
+                    {% if page.name == post.author %}
+                        <div class="card-body">
+                            <a href="{{ post.url }}" class="text-decoration-none text-dark">
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <img class="img-fluid w-100 rounded" src="{{ site.baseurl }}/{{ post.img }}"
+                                             alt="{{ post.title }}">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h2 class="font-weight-bold">{{ post.title }}</h2>
+                                        <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}
+                                        <p class="text-muted">{{ post.excerpt }}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <hr>
+                    {% endif %}
+                {% endfor%}
+            </div>
+        </div>
+    </div>
+</div>
