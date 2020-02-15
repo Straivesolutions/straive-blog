@@ -69,22 +69,28 @@ layout: default
             </div>
         </div>
         <div class="row">
+            {% assign count = 0 %}
             {% for post in site.posts %}
-            {% if post.author == page.author %}
-            {% unless page.title == post.title %}
-            <div class="col-md-4">
-                <div class="card-body">
-                    <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                        <img class="img-fluid w-100 rounded" src="{{ site.baseurl }}/{{ post.img }}"
-                             alt="{{ post.title }}">
-                        <h2 class="font-weight-bold">{{ post.title }}</h2>
-                        <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}
-                        <p class="text-muted">{{ post.excerpt }}</p>
-                    </a>
-                </div>
-            </div>
-            {% endunless %}
-            {% endif%}
+                {% if count >= 3 %}
+                    {% break%}
+                {% else %}
+                    {% if post.author == page.author %}
+                        {% unless page.title == post.title %}
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <a href="{{ post.url }}" class="text-decoration-none text-dark">
+                                    <img class="img-fluid w-100 rounded" src="{{ site.baseurl }}/{{ post.img }}"
+                                         alt="{{ post.title }}">
+                                    <h2 class="font-weight-bold">{{ post.title }}</h2>
+                                    <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}
+                                    <p class="text-muted">{{ post.excerpt }}</p>
+                                </a>
+                            </div>
+                        </div>
+                        {% assign count = count | plus:1 %}
+                        {% endunless %}
+                    {% endif%}
+                {% endif%}
             {% endfor %}
         </div>
     </div>
