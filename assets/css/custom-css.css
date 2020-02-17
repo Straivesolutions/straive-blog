@@ -30,3 +30,7 @@ body {
 .text-twitter-blue{
     color: #24a1f2;
 }
+.night-mode{
+    background: black !important;
+    color: white !important;
+}

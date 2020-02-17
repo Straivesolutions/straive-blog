@@ -47,12 +47,15 @@
     <div class="section">
     <div class="container">
         <hr>
-        <div class="row">
+        <div class="row justify-content-between mb-1">
             <div class="col" onclick="goBack()">
                 <i class="fa fa-angle-left fa-2x pointer"></i>
             </div>
+            <div class="col" onclick="activeNightMode()">
+                <i class="fas fa-cloud-moon fa-2x pointer float-right" id="switch"></i>
+            </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center rounded" id="post_body">
             <div class="col-md-8">
                 <h1 class="display-3">Diversity, inclusion, and belonging at github in 2019</h1>
                 <p class="text-muted">
@@ -111,7 +114,6 @@
         <hr>
 
         <div id="disqus_thread">
-            redda
         </div>
         <script>
 
