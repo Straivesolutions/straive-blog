@@ -1,15 +1,10 @@
 <div class="bg-white">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light justify-content-between fixed-top bg-white">
-            <a class="navbar-brand" href="http://localhost/Straive/v3.0.0/index.html">
+            <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
                 <img src="{{ site.baseurl }}/assets/img/logo.png" class="img-fluid pr-2" width="100" alt="Logo">
             </a>
             <ul class="nav nav-pills">
-                {% for link in site.data.navigation %}
-                <li class="nav-item d-none d-md-block">
-                    <a href="{{ link.link }}" class="h6 nav-link text-muted hover-black mt-1 px-4">{{ link.name }}</a>
-                </li>
-                {% endfor%}
                 <!-- Html Elements for Search -->
                 <div id="search-container">
                     <input class="rounded input-group-text bg-white text-justify mt-1 h-75" type="text" id="search-input"
