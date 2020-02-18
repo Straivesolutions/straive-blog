@@ -30,31 +30,14 @@
 <div class="bg-white">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light justify-content-between fixed-top bg-white">
-            <a class="navbar-brand" href="http://localhost/Straive/v3.0.0/index.html">
+            <a class="navbar-brand" href="/index.html">
                 <img src="/assets/img/logo.png" class="img-fluid pr-2" width="100" alt="Logo">
             </a>
             <ul class="nav nav-pills">
-                
-                <li class="nav-item d-none d-md-block">
-                    <a href="http://localhost/Straive/v3.0.0/index.html#products" class="h6 nav-link text-muted hover-black mt-1 px-4">Products</a>
-                </li>
-                
-                <li class="nav-item d-none d-md-block">
-                    <a href="http://localhost/Straive/v3.0.0/index.html#research" class="h6 nav-link text-muted hover-black mt-1 px-4">Research</a>
-                </li>
-                
-                <li class="nav-item d-none d-md-block">
-                    <a href="http://localhost/Straive/v3.0.0/index.html#philanthropy" class="h6 nav-link text-muted hover-black mt-1 px-4">Philanthropy</a>
-                </li>
-                
-                <li class="nav-item d-none d-md-block">
-                    <a href="/" class="h6 nav-link text-muted hover-black mt-1 px-4">Blog</a>
-                </li>
-                
                 <!-- Html Elements for Search -->
                 <div id="search-container">
                     <input class="rounded input-group-text bg-white text-justify mt-1 h-75" type="text" id="search-input"
-                           placeholder="search...">
+                           placeholder="Search... eg: 2020-02-05">
                     <ul class="position-absolute bg-white w-100 text-decoration-none" id="results-container"></ul>
                 </div>
             </ul>
@@ -64,12 +47,15 @@
     <div class="section">
     <div class="container">
         <hr>
-        <div class="row">
+        <div class="row justify-content-between mb-1">
             <div class="col" onclick="goBack()">
                 <i class="fa fa-angle-left fa-2x pointer"></i>
             </div>
+            <div class="col" onclick="activeNightMode()">
+                <i class="fas fa-cloud-moon fa-2x pointer float-right" id="switch"></i>
+            </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center rounded" id="post_body">
             <div class="col-md-8">
                 <h1 class="display-3">Apple</h1>
                 <p class="text-muted">
@@ -79,7 +65,7 @@
 
 1min Read
 </span>
-                    <span class="d-inline-block nav-link"><i class="fa fa-tag"></i> Fruit Apple Food</span>
+                    <span class="d-inline-block nav-link"><i class="fa fa-tag"></i> </span>
                 </p>
                 <img class="w-100 img-fluid" src="/assets/img/open-source-valentine-github-education.png">
                 <p class="text-muted mt-2">
@@ -129,95 +115,115 @@ colonists.</p>
             </div>
         </div>
         <hr>
+
+        <div id="disqus_thread">
+        </div>
+        <script>
+
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://blog-straivesolutions-com.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
         <div class="row">
             <div class="col">
                 <h4 class="font-weight-bold text-justify text-capitalize mt-2">
-                    <u>Related Articles</u>
+                    <u>Related Web Stories</u>
                 </h4>
             </div>
         </div>
         <div class="row">
             
             
+                
+                    
+                        
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <a href="/2020/02/14/Diversity,-inclusion,-and-belonging-at-GitHub-in-2019.html" class="text-decoration-none text-dark">
+                                    <img class="img-fluid w-100 rounded" src="/assets/img/sc.png"
+                                         alt="Diversity, inclusion, and belonging at github in 2019">
+                                    <h2 class="font-weight-bold">Diversity, inclusion, and belonging at github in 2019</h2>
+                                    <i class="far fa-calendar-alt"></i> 14 Feb 2020
+                                    <p class="mt-1"><p>The developer community that collaborates on GitHub transcends languages, time zones, cultures, and more. As Hubbers, we are a daily reflection and extension of our global developer community.</p>
+</p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                
             
-            <div class="col-md-4">
-                <div class="card-body">
-                    <a href="/2020/02/10/test.html" class="text-decoration-none text-dark">
-                        <img class="img-fluid w-100 rounded" src="/assets/img/open-source-valentine-github-education.png"
-                             alt="A banana is an edible fruit – botanically a berry">
-                        <h2 class="font-weight-bold">A banana is an edible fruit – botanically a berry</h2>
-                        <i class="far fa-calendar-alt"></i> 10 Feb 2020
-                        <p class="text-muted">In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas.</p>
-                    </a>
-                </div>
-            </div>
+                
+                    
+                        
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <a href="/2020/02/10/test.html" class="text-decoration-none text-dark">
+                                    <img class="img-fluid w-100 rounded" src="/assets/img/open-source-valentine-github-education.png"
+                                         alt="A banana is an edible fruit">
+                                    <h2 class="font-weight-bold">A banana is an edible fruit</h2>
+                                    <i class="far fa-calendar-alt"></i> 10 Feb 2020
+                                    <p class="mt-1">In some countries, bananas used for cooking may be called "plantains", distinguishing them from dessert bananas.</p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                
             
+                
+                    
+                
             
+                
+                    
+                        
+                    
+                
             
-            
-            
-            
-            
-            
-            
-            
-            
-            <div class="col-md-4">
-                <div class="card-body">
-                    <a href="/2020/02/05/gojira.html" class="text-decoration-none text-dark">
-                        <img class="img-fluid w-100 rounded" src="/assets/img/gojira.jpg"
-                             alt="Gojira">
-                        <h2 class="font-weight-bold">Gojira</h2>
-                        <i class="far fa-calendar-alt"></i> 05 Feb 2020
-                        <p class="text-muted"><p>A banana is an edible fruit – botanically a berry – produced by several kinds
+                
+                    
+                        
+                        <div class="col-md-4">
+                            <div class="card-body">
+                                <a href="/2020/02/05/gojira.html" class="text-decoration-none text-dark">
+                                    <img class="img-fluid w-100 rounded" src="/assets/img/gojira.jpg"
+                                         alt="Gojira">
+                                    <h2 class="font-weight-bold">Gojira</h2>
+                                    <i class="far fa-calendar-alt"></i> 05 Feb 2020
+                                    <p class="mt-1"><p>A banana is an edible fruit – botanically a berry – produced by several kinds
 of large herbaceous flowering plants in the genus Musa.</p>
 </p>
-                    </a>
-                </div>
-            </div>
-            
-            
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                
             
         </div>
     </div>
 </div>
-<section class="d-none d-md-block bg-light"
-         style="background: url('/assets/img/Handwritten-text.png') right no-repeat; background-size: 30%;">
-    <div class="container py-2">
-        <p>
-            <a href="http://localhost/Straive/v3.0.0/index.html" class="h3 text-dark font-weight-bolder d-inline-block">Straive</a>
-            
-                <a href="http://localhost/Straive/v3.0.0/index.html#products" class="text-dark nav-link d-inline-block">Products</a>
-            
-                <a href="http://localhost/Straive/v3.0.0/index.html#research" class="text-dark nav-link d-inline-block">Research</a>
-            
-                <a href="http://localhost/Straive/v3.0.0/index.html#philanthropy" class="text-dark nav-link d-inline-block">Philanthropy</a>
-            
-                <a href="/" class="text-dark nav-link d-inline-block">Blog</a>
-            
-        </p>
-        <p class="text-muted">
-            Straivesolutions © 2020
-            <a href="http://localhost/Straive/v3.0.0/privacy.html" class="text-muted nav-link d-inline-block hover-black">Privacy Policy</a>
-        </p>
-    </div>
-</section>
 
-<section class="d-md-none bg-light">
+<section class="bg-light">
     <div class="container py-2">
-        <p>
-            <a href="http://localhost/Straive/v3.0.0/index.html" class="h3 text-dark font-weight-bolder d-inline-block">Straive</a>
-            
-            <a href="http://localhost/Straive/v3.0.0/index.html#products" class="text-dark nav-link d-inline-block">Products</a>
-            
-            <a href="http://localhost/Straive/v3.0.0/index.html#research" class="text-dark nav-link d-inline-block">Research</a>
-            
-            <a href="http://localhost/Straive/v3.0.0/index.html#philanthropy" class="text-dark nav-link d-inline-block">Philanthropy</a>
-            
-            <a href="/" class="text-dark nav-link d-inline-block">Blog</a>
-            
-        </p>
-        <img src="/assets/img/Handwritten-text.png" alt="footer-img" class="img-fluid">
         <p class="text-muted">
             Straivesolutions © 2020
             <a href="http://localhost/Straive/v3.0.0/privacy.html" class="text-muted nav-link d-inline-block hover-black">Privacy Policy</a>

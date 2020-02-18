@@ -13,3 +13,13 @@ function copyText(){
     document.body.removeChild(dummy);
     alert("copied!!")
 }
+
+function activeNightMode() {
+    if ($('#post_body').hasClass('night-mode')){
+        $('#switch').removeClass('text-twitter-blue');
+        $('#post_body').removeClass('night-mode');
+    }else{
+        $('#switch').addClass('text-twitter-blue');
+        $('#post_body').addClass('night-mode');
+    }
+}
