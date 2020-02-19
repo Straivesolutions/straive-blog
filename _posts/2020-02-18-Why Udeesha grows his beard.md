@@ -2,7 +2,7 @@
 layout: post
 author: jill Watson
 author_img: assets/img/jill.jpeg
-img: assets/img/engineering-social.png
+img: engineering-social.png
 tags: Funny Entertainment 
 ---
 

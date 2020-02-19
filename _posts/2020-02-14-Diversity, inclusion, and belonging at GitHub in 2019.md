@@ -2,7 +2,7 @@
 layout: post
 author: jill Watson
 author_img: assets/img/jill.jpeg
-img: assets/img/sc.png
+img: sc.png
 ---
 The developer community that collaborates on GitHub transcends languages, time zones, cultures, and more. As Hubbers, we are a daily reflection and extension of our global developer community. 
 
