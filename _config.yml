@@ -7,6 +7,11 @@ prose:
   siteurl: 'http://prose.github.io/starter/'
   relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: assets/img/
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
   metadata:
     _posts:
       - name: "layout"
