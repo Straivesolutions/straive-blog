@@ -31,6 +31,8 @@ prose:
           options:
             - name: "Jill Watson"
               value: "jill Watson"
+            - name: "Heshan Andrews"
+              value: "Heshan Andrews"
       - name: "img"
         field:
           element: "text"
