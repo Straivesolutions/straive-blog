@@ -20,6 +20,11 @@ prose:
           label: "Publish?"
           on: "true"
           off: "false"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          help: "Type in the title of your web story"
       - name: "layout"
         field:
           element: "hidden"

@@ -22,7 +22,7 @@ layout: default
                     <span class="h5 font-weight-bolder">
                         {% assign post_count = 0 %}
                         {% for post in site.posts %}
-                            {% if page.name == post.author %}
+                            {% if page.name == post.author[0] %}
                                 {% assign post_count = post_count | plus: 1 %}
                             {% endif%}
                         {% endfor %}
@@ -35,7 +35,7 @@ layout: default
         <div class="row justify-content-center">
             <div class="col-md-8">
                 {% for post in site.posts %}
-                    {% if page.name == post.author %}
+                    {% if page.name == post.author[0] %}
                         <div class="card-body">
                             <a href="{{ post.url }}" class="text-decoration-none text-dark">
                                 <div class="row align-items-center">
