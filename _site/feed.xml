@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    <title></title>
+    <link href="http://localhost:4000/atom.xml" rel="self"/>
+    <id>http://localhost:4000</id>
+    <updated>2020-03-14T16:28:02+05:30</updated>
+
+    <author>
+        <name></name>
+        <uri></uri>
+        <email></email>
+    </author>
+
+    
+    <entry>
+        <title>Your Filename</title>
+        <link href="http://localhost:4000/2020/02/24/your-filename.html"/>
+        <id>http://localhost:4000/2020/02/24/your-filename</id>
+        <updated>2020-02-24T00:00:00+05:30</updated>
+        <content type="html">&lt;h2 id=&quot;a-new-post&quot;&gt;A New Post&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Take Github To Command Line</title>
+        <link href="http://localhost:4000/2020/02/19/take-github-to-command-line.html"/>
+        <id>http://localhost:4000/2020/02/19/take-github-to-command-line</id>
+        <updated>2020-02-19T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;We’re introducing an easier and more seamless way to work with GitHub from the command line—GitHub CLI, now in beta. Millions of developers rely on GitHub to make building software more fun and collaborative, and gh brings the GitHub experience right to your terminal.&lt;/p&gt; &lt;p&gt;You can install GitHub CLI today...</content>
+    </entry>
+    
+    <entry>
+        <title>Announcing Github India</title>
+        <link href="http://localhost:4000/2020/02/19/announcing-github-india.html"/>
+        <id>http://localhost:4000/2020/02/19/announcing-github-india</id>
+        <updated>2020-02-19T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;Namaste! Today, we’re excited to announce GitHub India Private Limited, a subsidiary of GitHub, Inc. Our community in India is thriving, with the third-largest number of active developers on GitHub and 22 percent growth over the past year, adding to an already significant base. To better serve those developers and...</content>
+    </entry>
+    
+    <entry>
+        <title>Why udeesha grows his beard</title>
+        <link href="http://localhost:4000/2020/02/18/Why-Udeesha-grows-his-beard.html"/>
+        <id>http://localhost:4000/2020/02/18/Why Udeesha grows his beard</id>
+        <updated>2020-02-18T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.&lt;/p&gt; &lt;p&gt;#ggbfghf ##ghryhtjuykiu&lt;/p&gt; &lt;ul&gt; &lt;li&gt;hfhgf&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”, distinguishing them from dessert bananas. The fruit is variable in...</content>
+    </entry>
+    
+    <entry>
+        <title>Climate change</title>
+        <link href="http://localhost:4000/2020/02/18/Climate-Change.html"/>
+        <id>http://localhost:4000/2020/02/18/Climate Change</id>
+        <updated>2020-02-18T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;You know what Udeesha endeavors to address environment pollution through his promising trrashnergy project&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <title>Diversity, inclusion, and belonging at github in 2019</title>
+        <link href="http://localhost:4000/2020/02/14/Diversity,-inclusion,-and-belonging-at-GitHub-in-2019.html"/>
+        <id>http://localhost:4000/2020/02/14/Diversity, inclusion, and belonging at GitHub in 2019</id>
+        <updated>2020-02-14T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;The developer community that collaborates on GitHub transcends languages, time zones, cultures, and more. As Hubbers, we are a daily reflection and extension of our global developer community.&lt;/p&gt; &lt;p&gt;In the past year, we grew by 30 percent, welcoming 360 new Hubbers from around the world. We increased the number of...</content>
+    </entry>
+    
+    <entry>
+        <title>A banana is an edible fruit</title>
+        <link href="http://localhost:4000/2020/02/10/test.html"/>
+        <id>http://localhost:4000/2020/02/10/test</id>
+        <updated>2020-02-10T00:00:00+05:30</updated>
+        <content type="html">&lt;h2 id=&quot;banana-is-good-for-health&quot;&gt;Banana is good for health&lt;/h2&gt; &lt;p&gt;A &lt;strong&gt;banana&lt;/strong&gt; is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.&lt;/p&gt; &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”, distinguishing them from dessert bananas. The fruit is variable...</content>
+    </entry>
+    
+    <entry>
+        <title>Kiwifruit</title>
+        <link href="http://localhost:4000/2020/02/06/kiwifruit.html"/>
+        <id>http://localhost:4000/2020/02/06/kiwifruit</id>
+        <updated>2020-02-06T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.&lt;/p&gt; &lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in)...</content>
+    </entry>
+    
+    <entry>
+        <title>Apple</title>
+        <link href="http://localhost:4000/2020/02/06/apple.html"/>
+        <id>http://localhost:4000/2020/02/06/apple</id>
+        <updated>2020-02-06T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt; &lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands...</content>
+    </entry>
+    
+    <entry>
+        <title>Gojira</title>
+        <link href="http://localhost:4000/2020/02/05/gojira.html"/>
+        <id>http://localhost:4000/2020/02/05/gojira</id>
+        <updated>2020-02-05T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.&lt;/p&gt; &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”, distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but...</content>
+    </entry>
+    
+
+</feed>
