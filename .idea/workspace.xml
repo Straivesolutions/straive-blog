@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01f97e71-4863-4d03-9327-274c18174042" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/05/gojira.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/05/gojira.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/06/apple.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/06/apple.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/06/kiwifruit.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/06/kiwifruit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/10/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/10/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/14/Diversity,-inclusion,-and-belonging-at-GitHub-in-2019.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/14/Diversity,-inclusion,-and-belonging-at-GitHub-in-2019.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/18/Climate-Change.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/18/Climate-Change.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/18/Why-Udeesha-grows-his-beard.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/18/Why-Udeesha-grows-his-beard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/19/announcing-github-india.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/19/announcing-github-india.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/19/take-github-to-command-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/19/take-github-to-command-line.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/24/your-filename.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/24/your-filename.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/authors/jill.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/jill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/logbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/logbook.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +63,7 @@
       <workItem from="1582103878318" duration="2535000" />
       <workItem from="1582529708187" duration="3908000" />
       <workItem from="1583240533464" duration="66000" />
-      <workItem from="1584181160509" duration="495000" />
+      <workItem from="1584181160509" duration="1865000" />
     </task>
     <servers />
   </component>
