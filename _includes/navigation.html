@@ -1,15 +1,20 @@
 <div class="bg-white">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light justify-content-between fixed-top bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-between bg-white container">
             <a class="navbar-brand" href="{{ site.baseurl }}/index.html">
                 <img src="{{ site.baseurl }}/assets/img/logo.png" class="img-fluid pr-2" width="100" alt="Logo">
             </a>
+<!--            <ul class="nav nav-pills">-->
+<!--                &lt;!&ndash; Html Elements for Search &ndash;&gt;-->
+<!--                <div id="search-container">-->
+<!--                    <input class="rounded input-group-text bg-white text-justify mt-1 h-75" type="text" id="search-input"-->
+<!--                           placeholder="Search... eg: 2020-02-05">-->
+<!--                    <ul class="position-absolute bg-white w-100 text-decoration-none" id="results-container"></ul>-->
+<!--                </div>-->
+<!--            </ul>-->
             <ul class="nav nav-pills">
-                <!-- Html Elements for Search -->
-                <div id="search-container">
-                    <input class="rounded input-group-text bg-white text-justify mt-1 h-75" type="text" id="search-input"
-                           placeholder="Search... eg: 2020-02-05">
-                    <ul class="position-absolute bg-white w-100 text-decoration-none" id="results-container"></ul>
+                <div class="pointer font-weight-bolder" data-toggle="modal" data-target="#subscribe-form">
+                    Subscribe
                 </div>
             </ul>
         </nav>
