@@ -4,7 +4,7 @@
     <title></title>
     <link href="http://localhost:4000/atom.xml" rel="self"/>
     <id>http://localhost:4000</id>
-    <updated>2020-03-14T16:42:13+05:30</updated>
+    <updated>2020-03-30T16:35:50+05:30</updated>
 
     <author>
         <name></name>
@@ -14,22 +14,11 @@
 
     
     <entry>
-        <title>Kiwi</title>
-        <link href="http://localhost:4000/2020/03/14/Kiwi.html"/>
-        <id>http://localhost:4000/2020/03/14/Kiwi</id>
-        <updated>2020-03-14T00:00:00+05:30</updated>
-        <content type="html">&lt;p&gt;layout: post author: jill Watson author_img: assets/img/jill.jpeg img: open-source-valentine-github-education.png — An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt; &lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii,...</content>
-    </entry>
-    
-    <entry>
-        <title>Your Filename</title>
-        <link href="http://localhost:4000/2020/02/24/your-filename.html"/>
-        <id>http://localhost:4000/2020/02/24/your-filename</id>
-        <updated>2020-02-24T00:00:00+05:30</updated>
-        <content type="html">&lt;h2 id=&quot;a-new-post&quot;&gt;A New Post&lt;/h2&gt;
-
-&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
-</content>
+        <title>Lorem ipsum dolor sit</title>
+        <link href="http://localhost:4000/2020/03/30/Lorem-Ipsum-dolor-sit.html"/>
+        <id>http://localhost:4000/2020/03/30/Lorem Ipsum dolor sit</id>
+        <updated>2020-03-30T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;Namaste! Today, we’re excited to announce GitHub India Private Limited, a subsidiary of GitHub, Inc. Our community in India is thriving, with the third-largest number of active developers on GitHub and 22 percent growth over the past year, adding to an already significant base. To better serve those developers and...</content>
     </entry>
     
     <entry>
@@ -95,6 +84,14 @@
         <id>http://localhost:4000/2020/02/06/apple</id>
         <updated>2020-02-06T00:00:00+05:30</updated>
         <content type="html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt; &lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands...</content>
+    </entry>
+    
+    <entry>
+        <title>Gojira</title>
+        <link href="http://localhost:4000/2020/02/05/gojira.html"/>
+        <id>http://localhost:4000/2020/02/05/gojira</id>
+        <updated>2020-02-05T00:00:00+05:30</updated>
+        <content type="html">&lt;p&gt;A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa.&lt;/p&gt; &lt;p&gt;In some countries, bananas used for cooking may be called “plantains”, distinguishing them from dessert bananas. The fruit is variable in size, color, and firmness, but...</content>
     </entry>
     
 
