@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f97e71-4863-4d03-9327-274c18174042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2020-03-30-Lorem Ipsum dolor sit.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-02-24-your-filename.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-03-14-Kiwi.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,10 +68,17 @@
       <workItem from="1582529708187" duration="3908000" />
       <workItem from="1583240533464" duration="66000" />
       <workItem from="1584181160509" duration="2754000" />
+      <workItem from="1585550622034" duration="243000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="347" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1585550626790">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="347" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1585550626790" />
   </component>
 </project>
