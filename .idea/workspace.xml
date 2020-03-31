@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f97e71-4863-4d03-9327-274c18174042" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/header/Background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/header/Rose-Left-Top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/header/Rose-Right-Bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/header/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo/Logo_Default_Black_Bold.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/8d/7ce9a870e112fc3a2f458b33f6b7e50d9466a9de0c4eff80af0fa422def2df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/mailchimp.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/mailchimp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/navigation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2020/02/05/gojira.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/05/gojira.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2020/02/06/apple.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/06/apple.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2020/02/06/kiwifruit.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/06/kiwifruit.html" afterDir="false" />
@@ -14,13 +21,11 @@
       <change beforePath="$PROJECT_DIR$/_site/2020/02/18/Why-Udeesha-grows-his-beard.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/18/Why-Udeesha-grows-his-beard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2020/02/19/announcing-github-india.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/19/announcing-github-india.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2020/02/19/take-github-to-command-line.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/02/19/take-github-to-command-line.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/02/24/your-filename.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/03/14/Kiwi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/custom-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/custom-css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/authors/jill.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/authors/jill.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/logbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/logbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/custom-css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom-css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -60,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,6 +77,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/header" />
+      <recent name="$PROJECT_DIR$/assets/img/logo" />
       <recent name="C:\Users\Erandi\Desktop\Straive Blog\straive-blog\assets\img" />
     </key>
   </component>
@@ -93,7 +100,8 @@
       <workItem from="1583240533464" duration="66000" />
       <workItem from="1584181160509" duration="2754000" />
       <workItem from="1585550622034" duration="4811000" />
-      <workItem from="1585564744220" duration="1048000" />
+      <workItem from="1585564744220" duration="7678000" />
+      <workItem from="1585627985719" duration="976000" />
     </task>
     <servers />
   </component>
@@ -101,9 +109,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="512" y="187" width="503" height="345" key="com.intellij.ide.util.TipDialog" timestamp="1585564787892">
+    <state x="512" y="187" width="505" height="345" key="com.intellij.ide.util.TipDialog" timestamp="1585627996648">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="512" y="187" width="503" height="345" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1585564787892" />
+    <state x="512" y="187" width="505" height="345" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1585627996648" />
   </component>
 </project>
