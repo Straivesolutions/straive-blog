@@ -4,14 +4,13 @@ comments: true
 ---
 <div class="section">
     <div class="container">
-        <hr>
         <div class="row justify-content-between mb-1">
             <div class="col" onclick="goBack()">
                 <i class="fa fa-angle-left fa-2x pointer"></i>
             </div>
-            <div class="col" onclick="activeNightMode()">
-                <i class="fas fa-cloud-moon fa-2x pointer float-right" id="switch"></i>
-            </div>
+<!--            <div class="col" onclick="activeNightMode()">-->
+<!--                <i class="fas fa-cloud-moon fa-2x pointer float-right" id="switch"></i>-->
+<!--            </div>-->
         </div>
         <div class="row justify-content-center rounded" id="post_body">
             <div class="col-md-8">
@@ -20,33 +19,34 @@ comments: true
                     <span class="d-inline-block nav-link"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }}</span>
                     <span class="d-inline-block nav-link"><i
                             class="fa fa-clock"></i>{% include reading_time.html %}</span>
-                    <span class="d-inline-block nav-link"><i class="fa fa-tag"></i> {{ page.tags }}</span>
                 </p>
                 <img class="w-100 img-fluid" src="{{site.baseurl}}/assets/img/{{ page.img }}">
-                <p class="text-muted mt-2">
-                    <span class="d-inline-block nav-link pointer" id="like-button" title="Love?">
-                        <i class="far fa-heart fa-2x"></i>
-                    </span>
+                <div class="">
+                    <p class="text-muted mt-2 sticky-top bg-white" id="social-media-buttons">
                     <span class="d-inline-block nav-link pointer">
                         <a href="https://www.facebook.com/sharer.php?u={{ site.url }}/{{ page.url }}&title={{ page.title }}"
                            title="Share on Facebook" target="_blank">
-                            <i class="fab fa-facebook fa-2x"></i>
+                            <i class="fab fa-facebook fa-2x text-muted"></i>
                         </a>
                     </span>
-                    <span class="d-inline-block nav-link pointer">
+                        <span class="d-inline-block nav-link pointer">
                         <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}"
                            rel="nofollow" target="_blank" title="Share on Twitter">
-                            <i class="fab fa-twitter fa-2x text-twitter-blue"></i>
+                            <i class="fab fa-twitter fa-2x text-muted"></i>
                         </a>
                     </span>
-                    <span class="d-inline-block nav-link pointer">
+                        <span class="d-inline-block nav-link pointer">
                         <a onclick="copyText()" title="Get a shareable link">
                             <i class="fas fa-link fa-2x text-muted"></i>
                         </a>
                     </span>
-                </p>
-                <div class="font-size-paragraph mt-5">
-                    {{ content }}
+                        <span class="d-inline-block nav-link pointer" data-toggle="modal" data-target="#subscribe-form">
+                            <i class="fas fa-bell fa-2x text-muted"></i>
+                    </span>
+                    </p>
+                    <div class="font-size-paragraph mt-5">
+                        {{ content }}
+                    </div>
                 </div>
                 <p class="text-muted mt-2">
                     {% assign author = site.authors | where: 'name', page.author | first %}
@@ -66,59 +66,51 @@ comments: true
         </div>
         <hr>
 
-        <div id="disqus_thread">
-        </div>
-        <script>
-
-            /**
-             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-            /*
-            var disqus_config = function () {
-            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-            };
-            */
-            (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://blog-straivesolutions-com.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-            })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-        <div class="row">
-            <div class="col">
-                <h4 class="font-weight-bold text-justify text-capitalize mt-2">
-                    <u>Related Web Stories</u>
-                </h4>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="text-pink font-weight-bolder mb-4">Reader's Stories</h2>
+                <p class="h4 font-weight-normal">
+                    If you think you have any inspiring stories related to your lives regarding the above episode,
+                    we sincerely encourage you to share them with everyone and make an impact.<br>
+                    <br>
+                    Or else feel free to share anything you have regarding the above episode or anything in the comment
+                    section below.
+                </p>
+                <div id="disqus_thread"></div>
             </div>
         </div>
-        <div class="row">
-            {% assign count = 0 %}
-            {% for post in site.posts %}
-                {% if count >= 3 %}
-                    {% break%}
-                {% else %}
-                    {% if post.author == page.author %}
-                        {% unless page.title == post.title %}
-                        <div class="col-md-4">
-                            <div class="card-body">
-                                <a href="{{ post.url }}" class="text-decoration-none text-dark">
-                                    <img class="img-fluid w-100 rounded" src="{{ site.baseurl }}/assets/img/{{ post.img }}"
-                                         alt="{{ post.title }}">
-                                    <h2 class="font-weight-bold">{{ post.title }}</h2>
-                                    <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}
-                                    <p class="mt-1">{{ post.excerpt }}</p>
-                                </a>
-                            </div>
-                        </div>
-                        {% assign count = count | plus:1 %}
-                        {% endunless %}
-                    {% endif%}
-                {% endif%}
-            {% endfor %}
-        </div>
+
+<!--        <div class="row">-->
+<!--            <div class="col">-->
+<!--                <h4 class="font-weight-bold text-justify text-capitalize mt-2">-->
+<!--                    <u>Related Web Stories</u>-->
+<!--                </h4>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            {% assign count = 0 %}-->
+<!--            {% for post in site.posts %}-->
+<!--                {% if count >= 3 %}-->
+<!--                    {% break%}-->
+<!--                {% else %}-->
+<!--                    {% if post.author == page.author %}-->
+<!--                        {% unless page.title == post.title %}-->
+<!--                        <div class="col-md-4">-->
+<!--                            <div class="card-body">-->
+<!--                                <a href="{{ post.url }}" class="text-decoration-none text-dark">-->
+<!--                                    <img class="img-fluid w-100 rounded" src="{{ site.baseurl }}/assets/img/{{ post.img }}"-->
+<!--                                         alt="{{ post.title }}">-->
+<!--                                    <h2 class="font-weight-bold">{{ post.title }}</h2>-->
+<!--                                    <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}-->
+<!--                                    <p class="mt-1">{{ post.excerpt }}</p>-->
+<!--                                </a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        {% assign count = count | plus:1 %}-->
+<!--                        {% endunless %}-->
+<!--                    {% endif%}-->
+<!--                {% endif%}-->
+<!--            {% endfor %}-->
+<!--        </div>-->
     </div>
 </div>
