@@ -33,7 +33,7 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light justify-content-between bg-white container">
             <a class="navbar-brand" href="/index.html">
-                <img src="/assets/img/logo.png" class="img-fluid pr-2" width="100" alt="Logo">
+                <img src="/assets/img/logo/Logo_Default_Black_Bold.png" class="img-fluid pr-2" width="250" alt="Logo">
             </a>
 <!--            <ul class="nav nav-pills">-->
 <!--                &lt;!&ndash; Html Elements for Search &ndash;&gt;-->
@@ -44,9 +44,9 @@
 <!--                </div>-->
 <!--            </ul>-->
             <ul class="nav nav-pills">
-                <div class="pointer font-weight-bolder" data-toggle="modal" data-target="#subscribe-form">
+                <h5 class="text-pink pointer font-weight-bolder" data-toggle="modal" data-target="#subscribe-form">
                     Subscribe
-                </div>
+                </h5>
             </ul>
         </nav>
     </div>
@@ -230,26 +230,36 @@
 </div>
 
 <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<!--<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">-->
 
 <!-- Modal -->
 <div class="modal fade" id="subscribe-form" tabindex="-1" role="dialog" aria-labelledby="#subscribe-form-label" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content p-3">
-            <div id="mc_embed_signup" style="background: url('/assets/img/logo.png')">
-                <form action="https://straivesolutions.us19.list-manage.com/subscribe/post?u=f2dd3b1f2072cacff0563d1be&amp;id=e72097cb02" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                        <label for="mce-EMAIL">Subscribe</label>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                            <input type="text" name="b_f2dd3b1f2072cacff0563d1be_e72097cb02" tabindex="-1" value="">
-                        </div>
-                        <div class="clear">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn font-weight-bolder">
+        <div class="modal-content">
+            <div class="row no-gutters">
+                <div class="col-md-6">
+                    <img src="/assets/img/header/email.jpg" class="card-img h-100" alt="...">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bolder">Subscribe !!</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div id="mc_embed_signup">
+                            <form action="https://straivesolutions.us19.list-manage.com/subscribe/post?u=f2dd3b1f2072cacff0563d1be&amp;id=e72097cb02" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate ml-0" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="email rounded input-group-text bg-white text-justify mt-1 h-75" id="mce-EMAIL" placeholder="email address" required>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_f2dd3b1f2072cacff0563d1be_e72097cb02" tabindex="-1" value="">
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-dark font-weight-bolder mt-3">
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
@@ -258,9 +268,9 @@
 <!--End mc_embed_signup-->
 <section class="bg-light">
     <div class="container py-2">
-        <p class="text-muted">
-            Straivesolutions © 2020
-            <a href="http://localhost/Straive/v3.0.0/privacy.html" class="text-muted nav-link d-inline-block hover-black">Privacy Policy</a>
+        <p class="text-muted text-center">
+            2020 (C) Fiction Times All Rights Reserved<br>
+            <a href="#" class="text-muted nav-link d-inline-block hover-black">Privacy Policy</a>
         </p>
     </div>
 </section>

@@ -2,32 +2,55 @@
 layout: default
 title: Straive - To help people tell great stories
 ---
-<div class="section vh-100">
-    <img src="assets/img/cercuri.png" class="position-absolute shadow w-25" style="top: 60%; left: -10%">
-    <img src="assets/img/patrat.png" class="position-absolute shadow w-25" style="top: 10%; left: 70%">
-    <img src="assets/img/path3.png" class="position-absolute shadow w-25" style="top: 75%; left: 60%">
-    <img src="assets/img/path4.png" class="position-absolute shadow w-25" style="top: 15%; left: 2%">
+<div class="section vh-100 d-md-block d-none" style="background: url('assets/img/header/Background.png') no-repeat right top">
+    <img src="assets/img/header/Rose-Left-Top.png" class=" position-absolute w-25" style="top: 0%; left: 0%">
+    <img src="assets/img/header/Rose-Right-Bottom.png" class="position-absolute w-25" style="top: 55%; left: 70%">
     <div class="container">
-        <div class="row align-items-center" style="margin-top: 25vh">
+        <div class="row align-items-center" style="margin-top: 15vh">
             <div class="col text-center">
-                <h2 class="text-muted">A banana is an edible fruit botanically a berry</h2>
-                <h1 class="display-3 font-weight-bolder my-3">
-                    Lorem Ipsum dolor sit
+                <h1 class="display-3 my-3">
+                    To inspire people with fictitious stories
                 </h1>
+                <h3 class="font-italic text-right">
+                    fiction reveals the truth that reality obscures<br>
+                    <span class="text-pink">
+                        - Ralph Waldo Emerson
+                    </span>
+                </h3>
             </div>
         </div>
     </div>
 </div>
+
+<div class="section d-md-none" style="background: url('assets/img/header/Background.png') no-repeat right top">
+    <img src="assets/img/header/Rose-Left-Top.png" class=" position-absolute w-25" style="top: 0%; left: 0%">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col text-center">
+                <h1 class="display-3 my-3">
+                    To inspire people with fictitious stories
+                </h1>
+                <h3 class="font-italic text-right">
+                    fiction reveals the truth that reality obscures<br>
+                    <span class="text-pink">
+                        - Ralph Waldo Emerson
+                    </span>
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="section">
     <div class="container">
         <hr>
         <div class="row justify-content-center">
-            <div class="col-md-8" id="explore">
-                <h4 class="font-weight-bold text-justify text-capitalize mt-2">
-                    <u>Latest Web Stories</u>
-                </h4>
+            <div class="col-md-10" id="explore">
+                <h2 class="text-justify text-capitalize mt-2">
+                    <u style="text-decoration-color: #be5f83">What's new with the web stories?</u>
+                </h2>
                 {% for post in site.posts limit: 4%}
-                <div class="card-body">
+                <div class="card-body my-5">
                     <a href="{{ post.url }}" class="text-decoration-none text-dark">
                         <div class="row align-items-center">
                             <div class="col-md-6">
@@ -36,20 +59,18 @@ title: Straive - To help people tell great stories
                             </div>
                             <div class="col-md-6">
                                 <h2 class="font-weight-bold">{{ post.title }}</h2>
-                                <i class="far fa-calendar-alt"></i> {{ post.date | date_to_string }}
                                 <p class="mt-1">{{ post.excerpt }}</p>
                             </div>
                         </div>
                     </a>
                 </div>
-                <hr>
                 {% endfor%}
             </div>
         </div>
-        <div class="row">
-            <div class="col text-center">
-                <a href="logbook.html" class="btn btn-lg font-weight-bolder btn-outline-primary px-5">View more Stories</a>
-            </div>
-        </div>
+<!--        <div class="row">-->
+<!--            <div class="col text-center">-->
+<!--                <a href="logbook.html" class="btn btn-lg font-weight-bolder btn-outline-primary px-5">View more Stories</a>-->
+<!--            </div>-->
+<!--        </div>-->
     </div>
 </div>
